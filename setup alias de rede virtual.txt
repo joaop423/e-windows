@@ -1,0 +1,11 @@
+tutorial de ajuda:
+https://superuser.com/questions/1299022/creating-a-virtual-nic-that-connects-to-the-same-network-as-physical-nic
+
+PASSOS
+1. acessar o gerenciador do Hyper-V como Admin
+2. gerenciador de Comutador virtual
+3. criar Comutador Virtual
+4. dar um nome para a rede virtual e marcar como rede interna
+5. setar o endereço ip dessa rede nova para (10.204.232.1)
+6. setar a mascara de Sub-Rede dessa rede nova para (255.255.255.0)
+7. testar o ping para o id 10.204.232.1

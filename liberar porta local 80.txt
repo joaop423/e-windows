@@ -1,0 +1,7 @@
+Os seguintes serviços são executados pelo windows na porta local 80:
+
+1.Descoberta SSDP
+2.Spooler de Impressão
+3.BranchCache
+
+comando: (NET stop HTTP) no cmd para a execução de todos caso seja necessário liberar a porta
